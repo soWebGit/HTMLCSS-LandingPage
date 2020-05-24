@@ -136,7 +136,7 @@ section { display:flex; }
 
 .banner {margin: 55px 15px;
          width: 100;
-         border-top: 1px solid #a0a0a0
+         border-top: 1px solid #a0a0a0;
          border-bottom: 1px solid #a0a0a0;
          padding: 25px 0;
 
