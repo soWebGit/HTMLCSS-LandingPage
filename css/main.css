@@ -61,11 +61,8 @@ section { display:flex; }
 }
 
 .search-box { width: 330px;
-             height: 6px;
-             padding-top: 6px;
-             padding-bottom: 6px;
-             padding-top: 12px;
-             padding-bottom: 12px;
+             height: 30px;
+             padding: 6px 12px;
              border: 1px solid #a0a0a0;
 }
 
@@ -73,11 +70,12 @@ section { display:flex; }
                  color: #ffffff;
                  width: 100px;
                  height: 30px;
+                 border: 0;
                  padding: 0;
 
 
 }
-.nav-list { padding: 0;
+.nav-list { left-padding: 0px;
             width: 575px;
             margin-top: 10px;
 
@@ -85,7 +83,7 @@ section { display:flex; }
 }
 
 .nav-list li a { font-size: 16px;
-                font-variant-caps: uppercase;
+                text-transform: uppercase;
                 font-weight: 700;
                 letter-spacing: 0.2px;
 
@@ -95,9 +93,14 @@ section { display:flex; }
 
 .profile { margin-left: auto; }
 .account { text-align: right;
-           padding: 15px;
-           font-color: #364147;
-
-
+           padding: 18px;
+           color: #364147;
 }
+
+.profile-pic { width: 60px; height: 60px; }
+.profile-pic img { border-radius: 100px;
+                   max-width: 100%;
+}
+
+
 /***************************************/
