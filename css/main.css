@@ -108,23 +108,22 @@ section { display:flex; }
 }
 
 /*Unit 3*/
-.hero { background-image: "img/hero.jpg";
+.hero {background-image: url('../img/hero.jpg');
         height: 400px;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         text-transform: uppercase;
 }
 
-.hero h1 {position: relative;
-          position: -30px;
-
+.hero h1 {position: relative; left: -30px ;
+        
 }
 
 .hero h2 {color: #faa541;}
 
-.hero h1,h2 {font-size: 63px;
-             font-weight: 700;
-             line-height: 0.9;
+.hero h1, .hero h2 {font-size: 63px;
+                    font-weight: 700;
+                    line-height: 0.9;
 
 }
 
@@ -135,7 +134,7 @@ section { display:flex; }
 }
 
 .banner {margin: 55px 15px;
-         width: 100;
+         width: 100%;
          border-top: 1px solid #a0a0a0;
          border-bottom: 1px solid #a0a0a0;
          padding: 25px 0;
@@ -152,8 +151,8 @@ section { display:flex; }
 }
 
 .bannet-text > div:last-child {font-size: 16px;
-                               font-weight: 400;
-                               margin-top: 5px
+                              font-weight: 400;
+                              margin-top: 5px
 }
 
 .category {flex: 0 0 25%;
@@ -168,7 +167,7 @@ section { display:flex; }
                 text-align: center;  
 }
 
-.category > div {font-size: 16px;
+.category-text > div {font-size: 16px;
                  font-weight: 200;
                  color: #faa541;  
 
