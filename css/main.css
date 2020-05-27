@@ -198,8 +198,8 @@ section { display:flex; }
 
 .full-banner-image  {flex: 0 0 58.333333%;
                      background-image: url('../img/vista.jpg');
-                     size: cover;
-                     position: cover;
+                     background-size: cover;
+                     background-position: top center;
                      min-height: 400px;
 }
 
@@ -211,27 +211,45 @@ section { display:flex; }
 
 }
 
-.full-banner-sidebar h4 {size: 40px;
-                         font-weight: 400;
+.full-banner-sidebar h4 {font-size: 40px;
+                         font-weight: 700;
                          font-style: italic;
                          color: #637f94;
                          line-height: 1;
 }
 
-.full-banner-sidebar:after {content: "";
-                            width: 100px;
-                            height: 1px;
-                            background-color: #faa541;
-                            margin: 20px auto;
-                            display: block; 
+.full-banner-sidebar h4:after {content: "";
+                               width: 100px;
+                               height: 1px;
+                               background-color: #faa541;
+                               margin: 20px auto;
+                               display: block; 
 }
 
-.full-banner-sidebar > div:nth-of-type (1) {font-size: 25px;
+.full-banner-sidebar > div:nth-of-type(1) {font-size: 60px;
+                                          font-weight: 700;
+                                          line-height: 1;
+
+
+}
+
+.full-banner-sidebar > div:nth-of-type(2) {font-size: 25px;
                                             font-weight: 200;
                                             letter-spacing: 3px;
 
 }
+/**
+.full-banner-sidebar > div:nth-of-type(1) {font-size: 60px;
+                                          font-weight: 700; 
+                                          line-height: 1; 
+}
 
+.full-banner-sidebar > div:nth-of-type(2) {font-size: 25px; 
+                                          font-weight: 200; 
+                                          letter-spacing: 3px;
+}
+
+**/
 .full-banner-sidebar .btn.btn-default {margin-top:50px;
                                        text-transform: uppercase;
                                        letter-spacing: 1px;
